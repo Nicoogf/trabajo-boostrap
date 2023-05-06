@@ -1,0 +1,291 @@
+/*Resets Styles*/
+:root{
+    --first-color : rgb(217,0,98);
+    --first-alpha-color: rgba(217,0,98,0.75);
+    --second-color: rgb(7, 7, 7);
+    --second-alpha-color: rgba(20,25,45,0.75);
+    --third-color:rgb(80,20,100);
+    --third-alpha-color : rgba(80,20,100,0.75);
+
+    --link-color : rgb(80,158,227);
+
+    --bg-color:rgb(245,245,245);
+    --bg-color-alpha:rgba(245,245,245,0.75)
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    ;
+}
+
+a{
+    color: var(--link-color);
+    transition: all .3s ease-out;
+}
+
+a:hover{
+   color:var(--first-color);
+
+}
+
+/* BoostrapStyles*/
+
+.bg-dark{
+    background-color: var(--second-color) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+
+.carousel-caption{
+    z-index: 1;
+}
+  
+
+.dropdown-menu li a:hover{
+    color:white;
+    background-color: var(--first-alpha-color);
+    transition: .3s;   
+}
+
+.dropdown-item{
+    color:var(--first-alpha-color);
+    font-weight: 700;
+}
+
+.dropdown-item:hover{
+   color: var(--third-alpha-color);
+   transition: all .3s ease-out;
+}
+.nav-item{   
+   transition: .3s all ease-out;
+}
+
+.nav-item:hover{    
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.nav-link{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--first-color)!important;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+
+.nav-link:hover{
+    color:white !important; 
+}
+
+
+.navbar-brand img{
+    height: 3rem;
+    width: auto;
+}
+
+
+.navbar-dark .navbar-toggler{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler:hover{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    opacity: 0.55;
+    transition: .6s;
+}
+
+/* My Styles */ 
+
+.css-bg-first-color{
+    background-color: var(--first-color);
+}
+
+.bg-gradient-blue-green{
+    background-color: rgb(181, 186, 212);
+    background-image: linear-gradient(
+        135deg,
+        rgba(47,145,244,0.91),
+        rgba(2, 18, 31, 0.97) 79%
+    );
+    background-image :linear-gradient(
+        131deg,
+        rgba(180, 211, 230, 0.92),
+        rgb(104, 29, 29)
+    );
+}
+
+.bg-third-color{
+    background-color: var(--third-color);
+}
+
+.bg-color{
+    background-color: var(--bg-color);
+}
+
+.bg-alpha-color{
+    background-color: var(--bg-color-alpha);
+}
+
+
+.bg-hero-image{
+    background-image: var(--bg-hero-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-second-alpha-color{
+    background-color: var(--second-alpha-color);
+}
+
+div .bg-second-alpha-color:hover{
+    background-color: transparent;
+    transition: .4s all ease-out;
+}
+
+.text-first-color{
+    color: var(--first-color);
+} 
+
+.alturaImg{
+    height: 25rem;
+}
+
+.background-main{
+    background-image: url(../fondopagina.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bg-loguin{
+    background-image: url(../fondologuin.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bg-text{
+ background-color: var( --first-color ) ;
+}
+
+.bg-text:hover{
+    background-color: white;
+    color:var(--first-color) !important;
+}
+
+.win-loguin{
+    max-width: 600px !important;
+}
+
+.bg-transparente{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.bg-transparente-title{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.btn-loguin{
+    width: calc(100% * 0.5);
+    background-color: var(--first-color) !important;
+    border:none !important;
+}
+
+.btn-loguin:hover{
+    transform: scale(1.1);
+    background-color: white !important;
+    color: var(--first-color) !important;
+    transition: .3s ease-in-out all !important;
+}
+
+.bg-card{
+    background-color: rgba(255, 255, 255, 0.281);  
+}
+
+.bg-card:hover{
+    background-color: rgba(255, 255, 255, 0.411);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.bg-carrusel{
+    background-image: url(../fondocarrusel.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bg-visitanos{
+        background-image: url(../bg-vistanos.jpg);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+}
+
+.bg-pink{
+    background-color: var(--first-color) !important;
+    color: white !important;
+}
+
+.bg-pink:hover{
+    background-color: white !important;
+    color: var(--first-color) !important;
+    transition: .3s ease-in-out all !important;
+}
+
+.bg-integrantes{
+    background-image: url(../integrantess.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bg-products{
+    background-image: url(../fondo.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bg-start{
+    background-image: url(../comensemos.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+@media (min-width: 576px) { 
+
+
+
+
+}
+
+
+@media (min-width: 768px) { 
+
+
+
+}
+
+
+@media (min-width: 1200px) { 
+
+
+
+}
+
+
+@media (min-width: 1400px) { 
+
+
+   
+}
