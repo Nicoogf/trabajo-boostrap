@@ -159,14 +159,14 @@ div .bg-second-alpha-color:hover{
 }
 
 .background-main{
-    background-image: url(../fondopagina.jpg);
+    background-image: url(../img/fondopagina.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .bg-loguin{
-    background-image: url(../fondologuin.jpg);
+    background-image: url(../img/fondologuin.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -217,14 +217,14 @@ div .bg-second-alpha-color:hover{
 }
 
 .bg-carrusel{
-    background-image: url(../fondocarrusel.jpg);
+    background-image: url(../img/fondocarrusel.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .bg-visitanos{
-        background-image: url(../bg-vistanos.jpg);
+        background-image: url(../img/bg-vistanos.jpg);
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover; 
@@ -242,21 +242,21 @@ div .bg-second-alpha-color:hover{
 }
 
 .bg-integrantes{
-    background-image: url(../integrantess.jpg);
+    background-image: url(../img/integrantess.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .bg-products{
-    background-image: url(../fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .bg-start{
-    background-image: url(../comensemos.jpg);
+    background-image: url(../img/comensemos.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
