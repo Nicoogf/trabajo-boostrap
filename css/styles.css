@@ -262,6 +262,12 @@ div .bg-second-alpha-color:hover{
     background-size: cover; 
 }
 
+.logo-footer{
+    height: 100px;
+}
+
+
+
 @media (min-width: 576px) { 
 
 
