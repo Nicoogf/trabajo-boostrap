@@ -266,7 +266,13 @@ div .bg-second-alpha-color:hover{
     height: 100px;
 }
 
+.footer-texto{
+    color:var(--first-color) !important;
+}
 
+.footer-texto:hover{
+    color:white !important;
+}
 
 @media (min-width: 576px) { 
 
