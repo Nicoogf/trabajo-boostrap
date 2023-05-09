@@ -281,6 +281,25 @@ div .bg-second-alpha-color:hover{
     background-size: cover; 
 }
 
+.bg-data{
+    background-color : rgb(194, 82, 132) ;
+}
+
+.bg-data-second{
+    background-color : rgb(236, 97, 160) ;
+}
+
+.bg-products{
+    background-image: url(../img/fondo-product.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+.bg-main{
+    background-color: white;
+}
 
 
 
